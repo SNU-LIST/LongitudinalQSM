@@ -1,5 +1,3 @@
-# LongitudinalQSM
-Joint reconstruction framework for longitudinal QSM that improves inter-scan consistency while preserving sensitivity to true susceptibility changes.
 
 # Longitudinal QSM (MATLAB)
 
@@ -11,7 +9,7 @@ This code is implemented in MATLAB.
 The reconstruction is developed based on the MEDI QSM framework.  
 Please install the MEDI toolbox prior to running the code:
 
-MEDI toolbox: https://github.com/liu-lab/MEDI_toolbox
+MEDI toolbox: https://pre.weill.cornell.edu/mri/pages/qsm.html
 
 Make sure all required paths are properly added in MATLAB.
 
@@ -28,7 +26,7 @@ The input data should include:
 
 Optional:
 - Refined brain mask excluding CSF and major vessels
-- 
+
 All inputs are expected to be preprocessed (e.g., phase unwrapping, background field removal, and registration across time points).
 
 ## License
